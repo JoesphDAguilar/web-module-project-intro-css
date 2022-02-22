@@ -1,0 +1,57 @@
+/*CSS Reset*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+  /*put a border around everything to see where it stops and starts*/
+    border:1px solid red;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+/* container Styles */
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+/* Header Styles */
+header nav {
+    padding: 1rem;
+}
+
+
+
+/* Nav link Styles */
+.plan {
+   background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.get {
+    background-color: #FFCD69;
+}
+
+
+
+/* section top h1 style */
+#top h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+/*About section style */
+#aboutSection {
+    background-color: #DDB9A3;
+}
+
+/*footer styles */
+.footerSection {
+    background-color: #F9E7DC;
+}
