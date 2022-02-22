@@ -15,15 +15,25 @@
 .container {
     text-align: center;
     margin: 0 auto;
+    width: 95%;
 }
-
 
 
 /* Header Styles */
-header nav {
-    padding: 1rem;
+header nav  {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 80%;
+    margin-left: 10%;
 }
 
+header nav a {
+   color: white;
+   text-decoration: none;
+   padding: 1%;
+   margin: 8%;
+   border-radius: 1rem;
+}
 
 
 /* Nav link Styles */
@@ -40,11 +50,25 @@ header nav {
 }
 
 
-
-/* section top h1 style */
+/* top section styles*/
 #top h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 3.125rem;
+    margin: -20% 33%  5%;
+    width: 50%;
 }
+
+#top img {
+    width: 18%;
+    margin: 2% 0 2% -58%;;
+    border-radius: 50%;
+}
+
+#top p {
+    width: 32%;
+    margin: -2% 41% 4% ;
+}
+
 
 /*About section style */
 #aboutSection {
